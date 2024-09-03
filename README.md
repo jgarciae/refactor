@@ -1,6 +1,7 @@
 ## Ejemplo de Refactorizaciòn
 
 ## Requerimientos
+- Framework Laravel 10.x
 - composer v2.2
 - php v8.1.x
 - Mysql v8
