@@ -16,13 +16,13 @@ class StoreUser extends FormRequest
         return true;
     }
 
-    protected function prepareForValidation(): void
-{
-    $this->merge([
-        'password' => Hash::make($this->password),
-        'email' => Str::slug($this->slug),
-    ]);
-}
+    // protected function prepareForValidation(): void
+    // {
+    //     $this->merge([
+    //         'password' => Hash::make($this->password),
+    //         'email' => Str::lower($this->slug),
+    //     ]);
+    // }
 
     /**
      * Get the validation rules that apply to the request.
